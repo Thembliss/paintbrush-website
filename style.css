@@ -661,6 +661,14 @@ section{
 
 }
 
+.painting-size{
+    text-align:center;
+    font-size:14px;
+    color:#6E6767;
+    margin:-6px 0 18px;
+    font-weight:500;
+}
+
 .painting-card p{
 
     color:#FFE7B8;
