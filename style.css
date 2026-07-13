@@ -659,26 +659,24 @@ section{
 
     font-size:34px;
 
-}
-
-.painting-header{
     display:flex;
-    align-items:flex-end;
-    justify-content:space-between;
-    gap:12px;
-    padding:25px 25px 14px;
-}
 
-.painting-header h3{
-    margin:0;
-    font-family:'Cormorant Garamond',serif;
-    font-size:34px;
-    line-height:1.1;
-    flex:1;
+    flex-wrap:wrap;
+
+    align-items:center;
+
+    gap:12px;
+
 }
 
 .painting-size{
+
+    display:inline-flex;
+    align-items:center;
+    vertical-align:middle;
+
     flex-shrink:0;
+
     padding:8px 14px;
     border-radius:999px;
 
@@ -691,11 +689,14 @@ section{
         inset 0 1px 1px rgba(255,255,255,.7),
         0 6px 18px rgba(0,0,0,.08);
 
+    font-family:'Inter',sans-serif;
     font-size:13px;
     font-weight:600;
     color:#5b5454;
     white-space:nowrap;
+
 }
+
 .painting-card p{
 
     color:#FFE7B8;
