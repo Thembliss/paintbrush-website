@@ -661,20 +661,41 @@ section{
 
 }
 
-.painting-size{
-    display:inline-block;
-    margin:0 25px 18px;
-    padding:5px 12px;
-    background:rgba(232,216,255,.45);
-    color:#5c4768;
-    border:1px solid rgba(92,71,104,.15);
-    border-radius:8px;
-    font-size:12px;
-    font-weight:700;
-    letter-spacing:.6px;
-    text-transform:uppercase;
+.painting-header{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    gap:12px;
+    padding:25px 25px 14px;
 }
 
+.painting-header h3{
+    margin:0;
+    font-family:'Cormorant Garamond',serif;
+    font-size:34px;
+    line-height:1.1;
+    flex:1;
+}
+
+.painting-size{
+    flex-shrink:0;
+    padding:8px 14px;
+    border-radius:999px;
+
+    background:rgba(255,255,255,.45);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.7);
+    box-shadow:
+        inset 0 1px 1px rgba(255,255,255,.7),
+        0 6px 18px rgba(0,0,0,.08);
+
+    font-size:13px;
+    font-weight:600;
+    color:#5b5454;
+    white-space:nowrap;
+}
 .painting-card p{
 
     color:#FFE7B8;
