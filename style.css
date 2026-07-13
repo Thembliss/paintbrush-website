@@ -663,11 +663,55 @@ section{
 
 .painting-card p{
 
-    padding:0 25px 25px;
-
     color:#D46A92;
 
     font-weight:600;
+
+    margin:0;
+
+}
+
+.card-footer{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:12px;
+
+    padding:0 25px 25px;
+
+}
+
+.order-btn{
+
+    flex-shrink:0;
+
+    padding:9px 18px;
+
+    border-radius:999px;
+
+    background:#D46A92;
+
+    color:#fff;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    letter-spacing:.3px;
+
+    transition:.3s;
+
+}
+
+.order-btn:hover{
+
+    background:#c05a80;
+
+    transform:translateY(-2px);
 
 }
 
@@ -903,9 +947,17 @@ section{
 
 }
 
-.mini-grid .painting-card p{
+.mini-grid .card-footer{
 
     padding:0 18px 18px;
+
+}
+
+.mini-grid .order-btn{
+
+    padding:7px 14px;
+
+    font-size:12px;
 
 }
 
