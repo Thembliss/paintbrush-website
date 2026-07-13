@@ -664,13 +664,15 @@ section{
 .painting-size{
     display:inline-block;
     margin:0 25px 18px;
-    padding:6px 14px;
-    background:#f3e4cb;
-    color:#6a5132;
-    font-size:13px;
-    font-weight:600;
-    border-radius:999px;
-    border:1px solid #e6d2b0;
+    padding:5px 12px;
+    background:rgba(232,216,255,.45);
+    color:#5c4768;
+    border:1px solid rgba(92,71,104,.15);
+    border-radius:8px;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.6px;
+    text-transform:uppercase;
 }
 
 .painting-card p{
